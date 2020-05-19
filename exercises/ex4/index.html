@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   
+   <title>coral rubilar ex 4</title>
+</head>
+<body>
+
+   <div class="container">
+
+      <header>
+            <h1>Request permission to go out with my daughter</h1>
+
+      </header>
+      <form class="form" method="get"  action="http://html5-book.co.il/teach/forms/get_form2.php">
+         <label>your full name :*
+            <input type="text" name="fullName" id="fullname" >
+         </label><br>
+
+         <label>Password for your social media :*
+            <input type="password" name="pass" id="password" required>
+         </label><br>
+
+         <label>Your Email :*
+            <input type="email" name="mail" >
+         </label><br> 
+         
+         <label>The website you most frequently browse:*
+            <input type="url" name="website" size="40" placeholder="If it's porn you are automatically disqualified!" required>
+         </label><br>
+
+         <label>Your parents' phone number:*
+            <input type="tel" name="phone" id="phone" required>
+         </label><br>
+
+         <label>Average of your grades:
+            <input type="number" name="coffee" min=0 max=100 >
+         </label><br>
+
+         <hr>
+
+         <label>How much do you love my daughter ?(1-10):
+            <input type="range" name="temper" min=0 max=10>
+         </label><br>
+        
+         <hr>
+
+
+         <label>
+            If you hurt my daughter,<br>
+            Where would you like to be buried?<br>
+            <textarea name="address" rows="2" cols="30" >
+            </textarea>
+         </label><br>
+
+         <hr>
+         <!--9 items-->
+         <div class="cbox">  
+         <span>Mark what you will <b>not</b> do with my daughter:</span><br>
+         <label>Smoke
+            <input type="checkbox" name="interests[]" value="smoke">
+         </label><br>
+         <label>Bring her home late
+            <input type="checkbox" name="interests[]" value="late">
+         </label><br>
+         <label>Make her sad
+            <input type="checkbox" name="interests[]" value="sad">
+         </label><br>
+         <label>Eat Junk food
+            <input type="checkbox" name="interests[]" value="junk food">
+         </label><br>
+         <label>Party after 12pm
+            <input type="checkbox" name="interests[]" value="party">
+         </label><br>
+         <label>Drink alcohol
+            <input type="checkbox" name="interests[]" value="alcohol">
+         </label><br>
+         <label>Sleep late
+            <input type="checkbox" name="interests[]" value="sleep">
+         </label><br>
+         <label>do drugs
+            <input type="checkbox" name="interests[]" value="drugs">
+         </label><br>
+         <label>Play Video games all day
+            <input type="checkbox" name="interests[]" value="games">
+         </label>
+      </div>
+
+
+        <hr>
+
+
+         <span>Have you ever been to a police station or prison?:</span><br>
+         <label>Yes
+            <input type="radio" name="gender" value="male" checked>
+         </label><br>
+         <label>No
+            <input type="radio" name="gender" value="female">
+         </label>
+
+         <hr>
+
+         <label> 
+            How many years do you plan to get married?<br>
+             <select name="age">
+               <option value="0">0</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10+">10+</option>
+            </select>
+         </label>
+
+         <hr>
+         <p>
+           <b> By pressing the button 'send' i confirm that all the information I gave is accurate. <br>
+            I know that any deviation from the truth involves violence or the death penalty. </b>
+            <br>
+            <br>
+            We'll get back to you with an answer within one to three years,
+            <br>
+            good luck.
+         </p>
+       <input id="submit_btn" type="submit"  value="send">
+
+         
+
+
+         
+   </form>
+    </div>
+  
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  
+  
+   <script src="js/script.js">
+   </script>
+</body>
+</html>
